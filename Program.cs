@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Lesson10
 {
@@ -6,7 +7,50 @@ namespace Lesson10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            // Задание 1
+            List<int> a = new List<int>(){1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            List<int> b = new List<int>();
+
+            a.Add(11);
+            a.Add(12);
+
+            Console.Write("Список после добавоения: ");
+            foreach(int i in a)
+            {
+                Console.Write($"{i} ");
+            }
+            Console.WriteLine();
+
+            foreach(int i in a)
+            {
+                if(i % 2 != 0)
+                {
+                    b.Add(i);
+                }
+            }
+
+            Console.Write("Список после удаления четных чисел: ");
+            foreach(int j in b)
+            {
+                Console.Write($"{j} ");
+            }
+            Console.WriteLine();
+
+            Console.Write("Первое число больше 5: ");
+            foreach(int i in b)
+            {
+                if(i > 5)
+                {
+                    Console.WriteLine($"{i} ");
+                    break;
+                }    
+            }
+
+            Console.Write("Список в обратном порядке: ");
+            for(int i = b.Count-1; i >= 0; i--)
+            {
+                Console.Write($"{b[i]} ");
+            }
         }
     }
 }

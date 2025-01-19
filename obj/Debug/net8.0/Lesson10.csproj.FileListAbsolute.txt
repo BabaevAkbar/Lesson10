@@ -12,3 +12,4 @@ C:\Users\Akbar\Desktop\Lesson\Lesson10\obj\Debug\net8.0\refint\Lesson10.dll
 C:\Users\Akbar\Desktop\Lesson\Lesson10\obj\Debug\net8.0\Lesson10.pdb
 C:\Users\Akbar\Desktop\Lesson\Lesson10\obj\Debug\net8.0\Lesson10.genruntimeconfig.cache
 C:\Users\Akbar\Desktop\Lesson\Lesson10\obj\Debug\net8.0\ref\Lesson10.dll
+C:\Users\Akbar\Desktop\Lesson\Lesson10\obj\Debug\net8.0\Lesson10.sourcelink.json
